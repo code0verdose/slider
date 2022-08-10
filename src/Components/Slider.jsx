@@ -1,12 +1,13 @@
 import {Button} from "./Button";
 import {useEffect, useState} from "react";
 
-export function Slider({userOnPage}) {
+export function Slider() {
 
     const [imagesArr, setImagesArr] = useState([]);
-    const {images} = imagesArr;
     const [loading, setLoading] = useState(true);
     const [slideIndex, setSlideIndex] = useState(1)
+
+    const {images} = imagesArr;
 
 
     useEffect(() => {
