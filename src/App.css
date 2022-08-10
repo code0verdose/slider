@@ -1,0 +1,10 @@
+@import "./Components/Slider.css";
+
+body {
+    background-color: rgb(252, 252, 252);
+}
+
+.container {
+    max-width: 900px;
+    margin: 150px auto;
+}

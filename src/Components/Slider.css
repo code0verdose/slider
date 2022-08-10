@@ -1,0 +1,23 @@
+.sliderItem {
+    position: relative;
+    opacity: 0;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: opacity 0.6s ease-in-out;
+}
+
+.nowActive {
+    opacity: 1;
+}
+
+.img {
+    border-radius: 5px;
+}
+
+.all-container {
+    height: 100%;
+    display: flex;
+}
